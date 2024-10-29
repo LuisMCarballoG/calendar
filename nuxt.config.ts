@@ -10,6 +10,9 @@ export default defineNuxtConfig({
   css: [
     'primeflex/primeflex.css'
   ],
+  plugins: [
+    '~/plugins/alpine.client.ts'
+  ],
   primevue: {
     options: {
       theme: {
